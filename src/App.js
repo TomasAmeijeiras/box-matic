@@ -2,13 +2,11 @@ import React, {useState, useEffect} from "react"
 import './App.css';
 import Cover from "./components/Cover.js"
 import ResponsiveAppBar from "./components/navbar/Navbar";
-import Navbar from './components/navbar/Navbar';
 import About from "./components/about/About";
 import Info from "./components/info/Info";
 import Footer from "./components/footer/Footer";
 //import Map from "./maps/Map"
 import Home from "./maps/Map";
-import CarouselFadeExample from "./components/slider/Slider";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Cards from "./cards/Cards";
 
