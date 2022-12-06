@@ -3,9 +3,9 @@ import "./Info.css"
 
 const Info = () => {
   return (
-    <div className="info-container">
+    <div className="info-container" id="Reviews">
       <div className="info">
-        <h1>Realizamos diagnóstico, reparación y mantenimiento de cajas automáticas.</h1>
+        <h1></h1>
       </div>
     </div>
   );

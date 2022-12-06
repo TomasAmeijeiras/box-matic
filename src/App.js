@@ -5,13 +5,10 @@ import ResponsiveAppBar from "./components/navbar/Navbar";
 import About from "./components/about/About";
 import Info from "./components/info/Info";
 import Footer from "./components/footer/Footer";
-//import Map from "./maps/Map"
-import Home from "./maps/Map";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Cards from "./cards/Cards";
 
-// import credentials from "./maps/credentials";
-// const mapURL = `https://maps.googleapis.com/maps/api/js?v=3.exp&key=${credentials.mapsKey}`;
+
 
 function App() {
 
@@ -28,8 +25,7 @@ function App() {
 
   return (
     <div className="App">
-      <ResponsiveAppBar/>
-      {/* <Navbar isScrolling = {scrollHeight} /> */}
+      <ResponsiveAppBar />
       <Cover />
       <About />
       <Cards></Cards>
